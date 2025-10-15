@@ -9,7 +9,7 @@ Analisi di cluster e modelli predittivi per l’identificazione di biomarker in 
 Performs **correlation analysis** and **feature selection**:
 - Computes the correlation matrix.  
 - Removes features with |r| > 0.8 to reduce collinearity.  
-- Produces a heatmap and a list of selected independent variables.
+- Produces a list of selected independent variables.
 
 ### `multimodello.py`
 Compares four supervised learning algorithms:
