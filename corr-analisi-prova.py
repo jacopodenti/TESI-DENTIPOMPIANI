@@ -12,7 +12,7 @@ def remove_highly_correlated(df, variables, threshold=0.9):
       threshold (float): Soglia di correlazione oltre la quale si rimuove una variabile.
                          
     Ritorna:
-      tuple: Lista delle feature selezionate e lista delle feature rimosse.
+     Lista delle feature selezionate e lista delle feature rimosse.
     """
     remaining_vars = list(variables)
     removed_vars = []
